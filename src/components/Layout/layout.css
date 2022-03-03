@@ -1,8 +1,15 @@
-.bar {
-    display: grid;
-    grid-template-columns: 20% 80%;
+.Layout {
+    transition: 1.5s ease-in-out;
 }
 
-.bar div {
-    border: 1px solid red;
+.scroll {
+    grid-template-columns: 5% 95%;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+.unScroll {
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+    padding-top: 10vh;
 }
