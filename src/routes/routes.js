@@ -13,8 +13,8 @@ import AboutEdit from "../containers/about/about-edit/index.jsx";
 import AboutAdd from "../containers/about/about-add/index.jsx";
 
 import AforizmlarView from "../containers/aforizmlar/aforizmlar-view/index.jsx";
-import AforizmlarEdit from "../pages/aforizmlar/index.jsx";
-import AforizmlarAdd from "../pages/aforizmlar/index.jsx";
+import AforizmlarEdit from "../containers/aforizmlar/aforizmlar-edit/index.jsx";
+import AforizmlarAdd from "../containers/aforizmlar/aforizmlar-add/index.jsx";
 
 import CoruselView from "../containers/corusel/corusel-view/index.jsx";
 import CoruselEdit from "../containers/corusel/corusel-edit/index.jsx";
