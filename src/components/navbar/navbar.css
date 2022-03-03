@@ -22,4 +22,9 @@
     font-size: 40px;
     color: rgba(255, 255, 255, 0.719);
     margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.navBurgerIcon:hover {
+    color: rgb(151, 179, 190);
 }
