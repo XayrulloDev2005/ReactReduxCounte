@@ -66,7 +66,7 @@ const VideoAdd = () => {
         
 
         <Button
-          style={{ backgroundColor: "#3c4b64", border: "#3c4b64", marginLeft:'50px' }}
+          style={{ backgroundColor: "#3c4b64", border: "#3c4b64",  }}
           onClick={handleSubmit}
         >
           Add
