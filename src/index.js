@@ -1,17 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
-import "./index.css";
-import App from "./root";
-import { Provider } from "react-redux";
-import store from './redux/store.js'
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from 'react'
+import { render } from 'react-dom'
 
-ReactDOM.render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+
+import counter from './reducers/counter'
+import Counter from './components/Counter'
+
+render(
+  <Provider store={createStore(counter)}>
+    <Counter />
   </Provider>,
-  document.getElementById("root")
-);
+  document.querySelector('#root')
+)
